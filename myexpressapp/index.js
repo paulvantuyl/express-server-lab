@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 
 // Start the server and listen on the specified port
 let server = app.listen(port, () => {
-    console.log(`Listening at localhost:${port}`);
+    console.log(`Listening for changes at localhost:${port}`);
 })
